@@ -10,7 +10,7 @@ public class Testing {
         HtmlUnitDriver driver = new HtmlUnitDriver(BrowserVersion.FIREFOX_38);
 
         // Set the QA server URL
-        driver.get("http://172.31.95.51:8080/qapath/");
+        driver.get("http://172.31.95.51:8080/qaenv/");
 
         // Print the current URL
         System.out.println(driver.getCurrentUrl());
